@@ -33,6 +33,7 @@ h2,
 h3 {
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .container {
@@ -50,6 +51,7 @@ h3 {
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 60px;
+  padding: 20px 5%;
 }
 
 .header ul {
@@ -78,8 +80,8 @@ h3 {
 .heading {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 50px;
-  padding: 0 20px;
+  margin: 0 auto 50px auto;
+  width: 90%;
 }
 
 .heading p {
@@ -95,8 +97,16 @@ h3 {
 .goal {
   background-color: #f4f4f4;
   margin: 10px 0;
-  padding: 20px 0 10px;
+  padding: 30px 10px 10px 10px;
   position: relative;
+}
+
+.goal-text{
+  margin-bottom: 15px;
+}
+
+.date-text{
+  font-size: 13px;
 }
 
 .goal .close {
@@ -110,7 +120,7 @@ h3 {
 
 .form,
 .content {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -121,7 +131,7 @@ h3 {
 .form-group input,
 .form-group textarea,
 .form-group select {
-  width: 100%;
+  width: 50%;
   padding: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
@@ -161,7 +171,7 @@ h3 {
 }
 
 .btn-block {
-  width: 100%;
+  
   margin-bottom: 20px;
 }
 
@@ -204,6 +214,16 @@ h3 {
   .form {
     width: 90%;
   }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+}
+
+  .goals{
+    grid-template-columns: repeat(1, 1fr);
+}
 
   .heading h1 {
     font-size: 2rem;
